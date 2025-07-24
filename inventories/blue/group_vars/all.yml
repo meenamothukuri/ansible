@@ -1,0 +1,25 @@
+
+---
+# file: group_vars/all.yml
+# Ansible variables
+ansible_user: 
+# Cluster variables
+stage: ref
+env: blue
+cluster_token: 
+cluster_ip: 
+cluster_url: 
+cluster_version: 
+passive_cluster_ip: 
+# OS variables
+nic_dienst: ens160
+nic_mngmnt: ens192
+netw_dienst: 
+netw_mngmnt: 
+# default variables
+default_distribution: Ubuntu
+default_distribution_version: "22.04"
+default_netw_speed: 10000
+default_netw_module: vmxnet3
+default_memtotal: 32
+default_vcpu: 4

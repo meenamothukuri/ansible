@@ -1,0 +1,3 @@
+# file: group_vars/compute.yml
+
+rke2_type: agent

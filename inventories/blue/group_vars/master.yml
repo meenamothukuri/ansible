@@ -1,0 +1,4 @@
+
+---
+# file: group_vars/master.yml
+rke2_type: server
