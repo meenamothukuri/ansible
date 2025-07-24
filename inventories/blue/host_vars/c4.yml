@@ -1,0 +1,4 @@
+node_role: app1
+
+default_memtotal: 64
+default_vcpu: 16

@@ -12,14 +12,14 @@ cluster_url:
 cluster_version: 
 passive_cluster_ip: 
 # OS variables
-nic_dienst: ens160
-nic_mngmnt: ens192
+nic_dienst: 
+nic_mngmnt: 
 netw_dienst: 
 netw_mngmnt: 
 # default variables
 default_distribution: Ubuntu
 default_distribution_version: "22.04"
 default_netw_speed: 10000
-default_netw_module: vmxnet3
+default_netw_module: 
 default_memtotal: 32
 default_vcpu: 4
