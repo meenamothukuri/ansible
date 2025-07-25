@@ -1,0 +1,2 @@
+Namespace          Pod           container                Image
+metadata.namespace metadata.name spec.containers[*].name  spec.containers[*].image
