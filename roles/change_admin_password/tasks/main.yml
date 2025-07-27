@@ -1,0 +1,10 @@
+---
+# file : role/change_admin_password/tasks/main.yml
+
+
+- name: Change User Password
+  become: true
+  user:
+     name: admin
+     update_password: always
+     password:"{{newpassword|password_hash('512')}}"
